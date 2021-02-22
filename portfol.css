@@ -1,3 +1,8 @@
+root{
+    --headingColor:#00b8e6;
+}
+
+
 body{
     margin: 0;
 }
@@ -6,13 +11,15 @@ nav{
     width: 100%;
     padding:10px 0 10px 0;
     background: #005E75;
-    position: fixed;
+    position: relative;
+
 }
 
 .navtags{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     /* border: rgb(25, 18, 88) dotted 5px; */
 }
 
@@ -23,12 +30,12 @@ nav{
 }
 
 .link-one:hover{
-    border-bottom: white solid 5px;
+    font-size: 30px;
 }
 
 .link-one:active{
-    color:#00b8e6;
-    border-bottom: #00b8e6 solid 5px;
+    color:var(--headingColor);
+    border-bottom: var(--headingColor) solid 5px;
 
 }
 
@@ -199,3 +206,24 @@ p{
     }
 
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #005E75;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
