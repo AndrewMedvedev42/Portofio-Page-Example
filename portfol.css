@@ -16,6 +16,7 @@ nav{
 }
 
 .navtags{
+    flex-wrap: wrap;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -24,6 +25,7 @@ nav{
 }
 
 .link-one{
+    font-size: 2rem;
     color: white;
     text-decoration-line: none;
     transition: 0.3s;
@@ -79,6 +81,7 @@ nav{
 
 h1{
     width:80%;
+    font-size: 5rem;
     /* text-align: center; */
     font-family: Futura ;
     color: #00b8e6;
@@ -86,13 +89,14 @@ h1{
 }
 
 h2{
+    font-size: 2rem;
     margin-bottom: 0;
     font-family: Futura ;
     color: #005E75;
 }
 
 p{
-    font-size: 18px;
+    font-size: 2rem;
     font-family: Helvetica ;
 }
 
